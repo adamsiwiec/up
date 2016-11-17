@@ -1,0 +1,21 @@
+{
+  "name": "up-cli",
+  "version": "0.1.0",
+  "description": "Keep your computer up to date by running asynchronous update commands",
+  "main": "up.js",
+  "repository": "https://github.com/adamsiwiec/up",
+  "author": "Adam Siwiec",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "up": "up.js"
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "bluebird": "^3.4.6",
+    "cli-spinner": "^0.2.5",
+    "colors": "^1.1.2",
+    "homedir": "^0.6.0",
+    "node-cmd": "^1.1.1"
+  }
+}
